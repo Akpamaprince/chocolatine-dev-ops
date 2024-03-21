@@ -7,9 +7,20 @@
 
 #include <stdio.h>
 
+void my_putchar(char c) {
+    putchar(c);
+}
+
 int main() {
-    int a,b;
-    
-    printf("Bonjour");
+    int a, b;
+
+    my_putchar('B');
+    my_putchar('o');
+    my_putchar('n');
+    my_putchar('j');
+    my_putchar('o');
+    my_putchar('u');
+    my_putchar('r');
+
     return 0;
-}    
+}

@@ -65,6 +65,7 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      - run: echo ${{ secrets.MIRROR_URL }}
       
       - name: Push to Mirror
         uses: pixta-dev/repository-mirroring-action@v1

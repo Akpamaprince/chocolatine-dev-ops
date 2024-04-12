@@ -6,14 +6,14 @@
 */
 
 #include <stdio.h>
-//my_putchr
+
 void my_putchar(char c) {
-    putchar(c);
+    putchar(c);//my_putchar
 }
-//main
+
 int main() {
     int a, b;
-
+//main
     my_putchar('B');
     my_putchar('o');
     my_putchar('n');

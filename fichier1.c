@@ -12,7 +12,7 @@ void my_putchar(char c) {
 }
 
 int main() {
-    int a, b;
+    int a,b;
 
     my_putchar('B');
     my_putchar('o');

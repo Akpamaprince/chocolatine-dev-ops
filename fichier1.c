@@ -7,15 +7,12 @@
 
 #include <stdio.h>
 
-void my_putchar(char c)
-{
+void my_putchar(char c) {
     putchar(c);
 }
 
-int main()
-{
-    int a;
-    int b;
+int main() {
+    int a,b;
 
     my_putchar('B');
     my_putchar('o');

@@ -6,11 +6,11 @@
 */
 
 #include <stdio.h>
-
+//my_putchr
 void my_putchar(char c) {
     putchar(c);
 }
-
+//main
 int main() {
     int a, b;
 
